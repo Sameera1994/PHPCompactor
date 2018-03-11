@@ -32,7 +32,5 @@ $compactor->setFilter(function ($in)
 */
 $compactor->exclude('framework.php');
 $compactor->compactAll($source);
-
-
 $compactor->report();
 $compactor->close();
